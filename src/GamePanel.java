@@ -14,6 +14,11 @@ import javax.swing.Timer;
 
 public class GamePanel extends JPanel {
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	
 	static final int GAME_SCREEN_WIDTH = 500;
 	static final int GAME_SCREEN_HEIGHT = 700;
 	static final int DELAY = 25;
@@ -194,6 +199,7 @@ public class GamePanel extends JPanel {
 	
 	public void gameOver()
 	{
+		// TODO screen display
 		running = false;
 		timer.stop();
 		astroTimer.stop();
